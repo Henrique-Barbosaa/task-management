@@ -1,6 +1,6 @@
 import { Component, EventEmitter, Input, Output } from '@angular/core';
 
-interface User {
+export interface User {
     id: string;
     name: string;
     avatar: string;
